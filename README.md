@@ -77,7 +77,7 @@ Ensure all libraries are installed and available in your environment before runn
 
 ### R:
 - Install and loaded the required libraries
-- Run the python script `fashion_mnist.r` in R studio
+- Run the R script `fashion_mnist.r` in R studio
 
 
 ## Conclusion

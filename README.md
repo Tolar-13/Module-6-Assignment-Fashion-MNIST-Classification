@@ -24,7 +24,7 @@ The CNN model built in both Python and R contains six layers and aims to achieve
    - The model achieved an accuracy of around 91% on the test dataset.
 
 ### Key Plots:
-- **Accuracy and Loss Curves**: 
+- **Accuracy and Loss Curves**:
   - The training and validation accuracy showed an increasing trend, indicating good learning.
   - The validation loss slightly diverged from training loss in later epochs, indicating mild overfitting.
 

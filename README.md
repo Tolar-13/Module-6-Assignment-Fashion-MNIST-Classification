@@ -9,18 +9,22 @@ The CNN model built in both Python and R contains six layers and aims to achieve
 ## Python Implementation
 
 ### Steps:
-1. **Load and Preprocess Data**: 
+
+1. **Install and Load Libraries**: 
+   - Required libraries were installed and loaded, including `keras`, `tensorflow`, `NumPy`, `Matplotlib` and `Scikit-learn`
+     
+2. **Load and Preprocess Data**: 
    - Data was loaded and normalized. 
    - Images were reshaped to include a channel dimension (28x28x1).
 
-2. **Model Building**:
+3. **Model Building**:
    - The CNN model includes two convolutional layers, a max-pooling layer, batch normalization, and two dense layers with dropout.
 
-3. **Model Training**:
+4. **Model Training**:
    - The model was trained over 10 epochs with a validation split of 20%.
    - Class weights were used to handle any imbalance in the dataset.
 
-4. **Evaluation**:
+5. **Evaluation**:
    - The model achieved an accuracy of around 91% on the test dataset.
 
 ### Key Plots:
